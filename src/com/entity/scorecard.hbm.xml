@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ 	<class name="com.entity.ScoreCard" table="Scorecard">
+		<id name="s_id" column="s_id" type="int">
+			<generator class="assigned" />
+		</id>
+		<property name="timestamp" column="timestamp" not-null="true" length="100"/>
+		<property name="category_name" column="category_name" not-null="true"/>
+		<property name="user_id" column="user_id" not-null="true"/>
+		<property name="score" column="score" not-null="true"/>
+	</class>
+
+</hibernate-mapping>

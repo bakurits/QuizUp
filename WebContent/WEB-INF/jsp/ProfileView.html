@@ -1,0 +1,143 @@
+<!doctype html>
+<html><head>
+    <meta charset="utf-8">
+    <title>BLOCKS - Bootstrap Dashboard Theme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href="font-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="register.css">
+
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>    
+    <script src="bootstrap.js"></script>
+
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+      }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('#btn').click(function(){
+              var fname=$('#fname').val();
+              var lname=$('#lname').val();
+              var email=$('#email').val();
+              var pwd=$('#pwd').val();
+              var rpwd =$('#rpwd').val();
+              if(pwd==rpwd)
+              {
+              if(fname !="" && lname!="" && email!="" && pwd!="")
+                {
+                $.ajax(
+                    {
+                    type:'post',
+                    cache:false,
+                    url:'profileupdate.jsp',
+                    data:{'fname':fname,'lname':lname,'email':email,'pwd':pwd}, 
+                    success:function(data){
+                      alert("Your Profile Updated Successfully");
+                    },
+                    timeout:100 
+                  });
+                }
+              }
+          });
+    });
+    </script>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+  	<!-- Google Fonts call. Font Used Open Sans & Raleway -->
+	<link href="http://fonts.googleapis.com/css?family=Raleway:400,300" rel="stylesheet" type="text/css">
+  	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+	</head>
+  <body>
+
+  	<!-- NAVIGATION MENU -->
+
+    <div class="navbar-nav navbar-inverse navbar-fixed-top">
+        <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="logo30.png" alt="">QuizUp Pro</a>
+        </div> 
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+					<li><a href="User_Console.jsp"><i
+							class="icon-home icon-white"></i> Home</a></li>
+					<li><a href="TakeQuiz.html"><i
+							class="icon-th icon-white"></i>Take a Quiz</a></li>
+					<li><a href="Challenge.html"><i class="icon-lock icon-white"></i>Challenge</a></li>
+					<li><a href="ViewScoreboard.html"><i class="icon-user icon-white"></i>View Scoreboard</a></li>
+					<li class="active"><a href="ProfileView.html"><i class="icon-user icon-white"></i>Profile</a></li>
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+        	<div class="col-lg-12">
+        		
+        		<div class="register-info-wraper">
+        			<div id="register-info">
+        				<div class="cont2">
+        					<div class="thumbnail">
+								<img src="face.jpg" alt="Marcel Newman" class="img-circle">
+							</div><!-- /thumbnail -->
+              <h2>Marcel Newman</h2>
+        				</div>
+        				<div class="row">
+        					<div class="col-lg-2">
+                  </div>
+                  <div class="col-lg-3">
+                  </div>
+                  <div class="col-lg-3">
+        						<div class="cont3">
+        					        <p><ok>First Name:</ok><input class="form-control" id="fname" type="text" placeholder="snapdeal"></p>
+                          <p><ok>Last Name:</ok><input class="form-control" id="lname" type="text" placeholder="snapdeal"></p>
+                          <p><ok>Username:</ok><input class="form-control" id="username" type="text" placeholder="snapdeal"></p>
+            							<p><ok>Mail:</ok><input class="form-control" id="email" type="email" placeholder="snapdeal@gmail.com"></p>
+            					    <p><ok>Password:</ok><input class="form-control" id="pwd" type="password" placeholder="****************"></p>
+                          <p><ok>Re-Enter Password:</ok><input class="form-control" id="rpwd" type="password" placeholder="****************"></p>
+                          <p><button class="btn btn-success" id="btn">Save</button></p>
+                    </div>
+        					</div>
+        				</div><!-- /inner row -->
+						<hr>
+						       				
+        			</div>
+        		</div>
+
+        	</div>
+         </div>
+
+        </div>
+    </div>
+
+	<div id="footerwrap">
+      	<footer class="clearfix"></footer>
+      	<div class="container">
+      		<div class="row">
+      			<div class="col-sm-12 col-lg-12">
+      			<p><img src="logo.png" alt=""></p>
+      			<p>Blocks Dashboard Theme - Crafted With Love - Copyright 2013</p>
+      			</div>
+
+      		</div><!-- /row -->
+      	</div><!-- /container -->		
+	</div><!-- /footerwrap -->  
+</body></html>

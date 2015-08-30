@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.entity.Admin" table="Admin">
+		<id name="admin_id" column="admin_id" type="int">
+			<generator class="assigned" />
+		</id>
+		<property name="first_name" column="first_name" not-null="true" length="20"/>
+		<property name="last_name" column="last_name" not-null="true" length="20"/>
+		<property name="email" column="email" not-null="true" length="50" />
+		<property name="password" column="password" not-null="true" length="16" />
+
+	</class>
+
+</hibernate-mapping>
+
+
+
+
+
+
+
+
+

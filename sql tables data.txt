@@ -1,0 +1,249 @@
+insert into category values(1,'bollywood','logo1','bollywoods');
+insert into category values(2,'sports','logo2','sportss');
+insert into category values(3,'Harry Potter','logo3','Harry Potter');
+insert into category values(4,'GK','logo4','GK');
+insert into category values(5,'Science','logo5','science');
+insert into category values(6,'hollywood','logo6','hollywoods');
+
+insert into questionbank1 values(1,'This was the city in which Tendulkar scored his first hundred for India in India.',2,'image','audio','Chennai','Mumbai','Delhi','Kolkata',1);
+insert into questionbank1 values(2,'Which cricketer is associated with Udayan a charity home in Kolkata?',2,'image','audio','Steve Waugh','Wasim Akram','Kapil Dev','Graham Gooch',1);
+insert into questionbank1 values(3,'Who was the 1st president of BCCI (Board of Control for Cricket in India)?',2,'image','audio','R.E. Grant Govan','Dr. Maharajkumar Sir Vijaya Ananda','Sikandar Hyat Khan','Anthony S. DMello',1);
+insert into questionbank1 values(4,'Who was the first captain of Indian Test team?',2,'image','audio','Vijay Hazare','C K Nayudu','Lala Amarnath','Vijay Merchant',2);
+insert into questionbank1 values(5,'Which player has scored the most runs in a single Test innings?',2,'image','audio','Graham Gooch','Matthew Hayden','Brian Lara','Agarkar',3);
+insert into questionbank1 values(6,'Which team did Sachin Tendulkar play for in the Ranji Trophy when he made his debut in first class cricket?',2,'image','audio','Karnataka','Delhi','Mumbai','Kerala',3);
+insert into questionbank1 values(7,'Who was the man of the match of the 1983 World Cup Final?',2,'image','audio','Kapil Dev','Roger Binny','Sunil Gavaskar','M. Amarnath',4);
+insert into questionbank1 values(8,'Which country won the World Cup in 2007?',2,'image','audio','Australia','South Africa','Pakistan','Srilanka',1);
+insert into questionbank1 values(9,'What is the middle name of Bajji?',2,'image','audio','Bisan singh Bedi','Harbhajan Singh','Anil Kumbale','Sachin Tendulekar',2);
+insert into questionbank1 values(10,'In how many ways can a batsman be out in cricket?',2,'image','audio','10','7','9','8',1);
+insert into questionbank1 values(11,'When was ICC formed?',2,'image','audio','1928','1927','1937','1947',2);
+insert into questionbank1 values(12,'Length of cricket pitch is',2,'image','audio','21yards','22yards','12yards','28yards',2);
+insert into questionbank1 values(13,'When did India win world cup in cricket?',2,'image','audio','1984','1999','1983','1975',3);
+insert into questionbank1 values(14,'When and where was the first world cup cricket tournament held?',2,'image','audio','1979,England','1975,England','1983,England','None of the above',2);
+insert into questionbank1 values(15,'What was the name of first world cup?',2,'image','audio','Wills world cup','ICC world cup','Pepsi world cup','Prudential cup',4);
+insert into questionbank1 values(16,'Steve Waugh belongs to which team',2,'image','audio','England','South Africa','West Indies','Australia',4);
+insert into questionbank1 values(17,'Who was the captain of the Indian team for Twenty20 World Cup 2007?',2,'image','audio','Sachin Tendulekar','Saurav Gangully','M.S. Dhoni','Rahul Dravid',3);
+insert into questionbank1 values(18,'Who won Twenty20 World Cup 2009?',2,'image','audio','West Indies','Sri Lanka','South Africa','Pakistan',4);
+insert into questionbank1 values(19,'Who hit six sixes in an over off Stuart Broad in a match against England in Twenty20 World Cup 2007?',2,'image','audio','Ricky Ponting','Stephen Fleming','Adam Gilchrist','Yuvraj Singh',4);
+insert into questionbank1 values(20,'In which year did India make its One Day International debut?',2,'image','audio','1971','1974','1973','1975',2);
+
+insert into questionbank1 values(21,'AIDS disease in human being is caused by ?',4,'image','audio','Fungus','HIV (virus)','Insects','None of these',2);
+
+insert into questionbank1 values(22,'NIRT (National Institute for Research in Tuberculosis) is located at',4,'image','audio','Mumbai','Nagpur','Ahmedabad','Chennai',4);
+
+insert into questionbank1 values(23,'Who is the author of the Shiva Trilogy the third book of which The Oath of the Vayuputras was launched in February 2013 ?',4,'image','audio','Anand Neelkantan','Ashwin Sanghi','Amish Tripathi','Ashok Bankar',3);
+
+insert into questionbank1 values(24,'The recently released film Kai Po Che is based on the novel ?',4,'image','audio','The Story of My Marriage','The 3 Mistake of My Life','The Loving Doll','Lashkar',2);
+
+insert into questionbank1 values(25,'Sita in Maurya age Means',4,'image','audio','Revenue from crown land','A Goddess','Barren land','A Religious Sect',1);
+
+insert into questionbank1 values(26,'What was Dar-Ul-Shafa established by feroz Tughlaq?',4,'image','audio','An alms house','A library','A guest house for pilgrims','A free hospital',4);
+
+insert into questionbank1 values(27,'Who said Tilak is the father of Indian unrest',4,'image','audio','Lord Reading','Web Miller','Louis Fischer','V. Chirol',4);
+
+insert into questionbank1 values(28,'In South Asia,the country with the largest percentage of aged population is',4,'image','audio','Bhutan','India','Nepal','Sri Lanka',4);
+
+insert into questionbank1 values(29,'The promoter of National Stock Exchange of India is.',4,'image','audio','LIC and GIC','IDBI','All the above','State Bank of India',3);
+
+insert into questionbank1 values(30,'Which among the following products is not usually exported from India?',4,'image','audio','Pulses','Sugar','Wheat','Rice',1);
+
+insert into questionbank1 values(31,'Who among the following personalities bestowed with the 2015 Gujar Mal Modi Award recently?',4,'image','audio','Prof. Mustansir Barma','N. Valarmathi','Jothimani Gowthaman','T K Anuradha',1);
+
+insert into questionbank1 values(32,'Who is the first recipient of Dr. A.P.J. Abdul Kalam Award, instituted by Government of Tamil Nadu in 2015?',4,'image','audio','Prof. Mustansir Barma','N. Valarmathi','Jothimani Gowthaman','T K Anuradha',2);
+
+insert into questionbank1 values(33,'India has imposed Anti-dumping duty on potassium carbonate imports from which of the following countries?',4,'image','audio','China and South Korea','Singapore and Taiwan','Taiwan and China','South Korea and Taiwan',4);
+
+insert into questionbank1 values(34,'The Accessible India campaign is associated with which of the following fields?',4,'image','audio','Tourism','Child Education','Empowerment of Gram Panchayats ','Physically disabled persons',4);
+
+insert into questionbank1 values(35,'In context of banking, what does BBB stands for__?',4,'image','audio','Bank Broadcast Bureau','Bank Beneficial Bureau','Bank Blogger Bureau','Bank Board Bureau',4);
+
+insert into questionbank1 values(36,'Which of the following has recently acquired Bengaluru-based HomeBuy360?',4,'image','audio','Housing.com','SoftBank','Indian Real Estate Forum','None of the above',1);
+
+insert into questionbank1 values(37,'Who has became the first Indian shuttler to win silver medal in 2015 World Badminton Championship?',4,'image','audio','PV Sindhu','Jwala Gutta','Saina Nehwal','Kidambi Srikanth',3);
+
+insert into questionbank1 values(38,'Who has been appointed as the Chairman of the Public Enterprises Selection Board (PESB)?',4,'image','audio','Gauri Kumar','Ajit Kumar Seth','Atul Chaturvedi','Anshuman Das',2);
+
+insert into questionbank1 values(39,'Which state government has launched Grama Jyothi Scheme to empower gram panchayats?',4,'image','audio','Telangana','Bihar','Odisha','Tripura',1);
+
+insert into questionbank1 values(40,'The mobile wallet app Buddy launched by which bank recently?',4,'image','audio','PNB','ICICI','SBI','HDFC',3);
+
+insert into questionbank1 values(41,'Pollination by birds is called:',5,'image','audio','autogamy','ornithophily','entomophily','anemophily',2);
+
+insert into questionbank1 values(42,'What percent of fire-related deaths are due to smoke inhalation rather than burns?',5,'image','audio','10%','50%','80%','99%',3);
+
+insert into questionbank1 values(43,'The fastest-running terrestrial animal is:',5,'image','audio','cheetah','lion','man','jaguar',1);
+
+insert into questionbank1 values(44,'As you go down into a well, your weight:',5,'image','audio','increases slightly','decreases slightly','remains exactly the same','none of these',2);
+
+insert into questionbank1 values(45,'Bees must collect nectar from approximately how many flowers to make 1 pound of honeycomb? Is it:',5,'image','audio','10 thousand','2 million','20 million','50 million',3);
+
+insert into questionbank1 values(46,'Albacore is a type of:',5,'image','audio','shell-fish','tuna','marble','meteoroid',2);
+
+insert into questionbank1 values(47,'The only species of cat that lives and hunts in groups is:',5,'image','audio','lion','leopard','jaguar','cougar',1);
+
+insert into questionbank1 values(48,'Which prefix is often used with scientific terms to indicate that something is the same, equal or constant?',5,'image','audio','iso','mega','meta','quasi',1);
+
+insert into questionbank1 values(49,'The study of phenomena at very low temperatures is called:',5,'image','audio','heat transfer','morphology','crystallography','cryogenics',4);
+
+insert into questionbank1 values(50,'The branch of medical science which is concerned with the study of disease as it affects a community of people is called:',5,'image','audio','pathology','epidemiology','oncology','paleontogy',2);
+
+insert into questionbank1 values(51,'The study of how people use tools to perform work and how people physically relate to their working environment is called:',5,'image','audio','engineering','ergonomics','agronomy','physiology',2);
+
+insert into questionbank1 values(52,'What famous scientist and inventor participated in the invention of the Aqua-Lung?',5,'image','audio','Thomas Edison','Isaac Newton',' Leonardo da Vinci','Jacques Cousteau',4);
+
+insert into questionbank1 values(53,'A type of plastic that is biodegradable has been in the news lately. The ingredient that makes it biodegradable is:',5,'image','audio','vegetable oil','petroleum','cornstarch','leather',3);
+
+insert into questionbank1 values(54,'If a metal can be drawn into wires relatively easily it is called:',5,'image','audio','malleable','ductile','extractive','tactile',2);
+
+insert into questionbank1 values(55,'In which country was a method for making rust-resistant iron discovered in the fifth century B.C.?',5,'image','audio','Sumeria','Egypt','India','Babylon',3);
+
+insert into questionbank1 values(56,'Cystitis is the infection of which of the following?',5,'image','audio','liver','urinary bladder','pancreas','lung',2);
+
+insert into questionbank1 values(57,'At room temperature, most elements are in which phase of matter?',5,'image','audio','solid','liquid','gas','plasma',1);
+
+insert into questionbank1 values(58,'The per capita birth rate of a population is known as its:',5,'image','audio','mortality','natality','population density','carrying capacity',2);
+
+insert into questionbank1 values(59,'Who is called the Father of the Nuclear Navy?',5,'image','audio','Edward Teller','Robert Oppenheimer','Hymen Rickover','Chester Nimitz',3);
+
+insert into questionbank1 values(60,'The science of weights and measures is called:',5,'image','audio','metrology','meteorology','mineralogy','morphology',1);
+
+insert into questionbank1 values(61,'First Indian movie submitted for Oscar',1,'image','audio','The Guide','Mother India','Madhumati','Amrapali',2);
+
+insert into questionbank1 values(62,'Satyajit Ray win Oscar in the year',1,'image','audio','1992','1994','1986','1990',1);
+
+insert into questionbank1 values(63,'First Indian sound film was',1,'image','audio','Alam Ara','Raja Harishchandra','Kishan Kanya','None of the above',1);
+
+insert into questionbank1 values(64,'Filmfare awards started from the year',1,'image','audio','1952','1964','1954','1960',3);
+
+insert into questionbank1 values(65,'From which year Indian Government sponsored National Film Award',1,'image','audio','1972','1973','1984','1980',2);
+
+insert into questionbank1 values(66,'Total number of award won by Satyajit Ray in National Film Award',1,'image','audio','10','32','12','8',2);
+
+insert into questionbank1 values(67,'First Indian to win an Oscar award',1,'image','audio','Bhanu Athaiya','AR Rahman','Rasul Pookutty','None of the Above',1);
+
+insert into questionbank1 values(68,'First Filmfare Award for best actor awarded to',1,'image','audio','Ashok Kumar','Dilip Kumar','Raj Kapoor','None of the Above',2);
+
+insert into questionbank1 values(69,'Total number of Best Actor nomination for Amitabh Bachan in Filmfare Award',1,'image','audio','28','22','30','12',1);
+
+insert into questionbank1 values(70,'Last film directed by Satyajit Ray',1,'image','audio','Agantuk','Bala','Pikoo','Jana Aranya',1);
+
+insert into questionbank1 values(71,'Film and Television Institute of India located at',1,'image','audio','Mumbai','Kolkata','Pune','Delhi',3);
+
+insert into questionbank1 values(72,'Film and Television Institute of India established in the year',1,'image','audio','1955','1962','1965','1960',4);
+
+insert into questionbank1 values(73,'First 3D animated film from India is',1,'image','audio','Roadside Romeo','Ghayab Aaya','Hanuman','Bal Ganesh',1);
+
+insert into questionbank1 values(74,'First Indian animation film Ek Anek Aur Ekta in 1974 directed by',1,'image','audio','Ram Mohan','Vijaya Mulay','Milind Ukey','None of the above',2);
+
+insert into questionbank1 values(75,'Doordarshan founded in India in the year',1,'image','audio','1962','1965','1952','1959',4);
+
+insert into questionbank1 values(76,'Who is popularly known as Father of Indian Cinema?',1,'image','audio','Dadasaheb Phalke','V. Shantaram','Ardeshir Irani','Kidar Sharma',1);
+
+insert into questionbank1 values(77,'Music Director R.D. Burman is also known as',1,'image','audio','Rocky','Pancham','Chichi','Chintu',2);
+
+insert into questionbank1 values(78,'Which Indian actor is known as Tragedy King?',1,'image','audio','Sanjeev Kumar','Guru Dutt','Amitabh Bachchan','Dilip Kumar',4);
+
+insert into questionbank1 values(79,'Singer Kishore Kumar bagged first Filmfare Award for which song?',1,'image','audio','Roop Tera Mastana','Dil Aisa Kisi Ne Mera','Khaike Pan Banaras Wala','Zindagi Ek Safar',1);
+
+insert into questionbank1 values(80,'Name the film in which Amitabh Bachchan, Rajinikanth and Kamal Hasan worked together.',1,'image','audio','Hum','Andha Kanoon','Agneepath','Geraftaar',4);
+
+insert into questionbank1 values(81,'What is the title of the first Harry Potter book in the US?',3,'image','audio','the Sorcerers Stone','the Chamber of Secrets','the Prisoner of Azkaban','the Goblet of Fire',1);
+
+insert into questionbank1 values(82,'Who comes to take Harry to Hogwarts?',3,'image','audio','Hagrid','Arthur Weasley','Hermione Granger','Draco Malfoy',1);
+
+insert into questionbank1 values(83,'What house does the Sorting Hat consider putting Harry in, but doesnt?',3,'image','audio','Gryffindor','Hufflepuff','Slytherin','Ravenclaw',3);
+
+insert into questionbank1 values(84,'What professor is sharing its body with Lord Voldemort?',3,'image','audio','Professor McGonagall','Professor Quirell','Professor Dumbledore','Professor Snape',2);
+
+insert into questionbank1 values(85,'What position does Harry play on the Gryffindor Quidditch team?',3,'image','audio','Chaser','Seeker','Beater','Keeper',2);
+
+insert into questionbank1 values(86,'Who is Harrys quiditch teammate?',3,'image','audio','Malfoy','Earnie','Fred','Cho',3);
+
+insert into questionbank1 values(87,'What is Lord Voldemorts real name?',3,'image','audio','Dark Lord','Tom Marvolo Riddle','He-Who-Must-Not-Be-Named','You-Know-Who',2);
+
+insert into questionbank1 values(88,'What type of blood are the messages on the wall written in?',3,'image','audio','Chicken','Human','Dragon','Snake',1);
+
+insert into questionbank1 values(89,'What guards Azkaban?',3,'image','audio','Aurors','Unicorns','Dementors','Blast-Ended Skrewts',3);
+
+insert into questionbank1 values(90,'What is Sirius relationship to Harry?',3,'image','audio','Father','Brother','Uncle','God-father',4);
+
+insert into questionbank1 values(91,'What are the two other schools that are participating in the Tri-Wizard Tournament?',3,'image','audio','Kirkwood and Webster','Beauxbatons and Durmstrang','Veritaserum and Schnitzel','Clayton and Ladue',2);
+
+insert into questionbank1 values(92,'Who is the Defense Against the Dark Arts teacher in year one?',3,'image','audio','Professor McGonagall','Professor Quirell','Professor Snape','Professor Flitwick',2);
+
+insert into questionbank1 values(93,'Who is the Defense Against the Dark Arts teacher in year two?',3,'image','audio','Professor Binns','Professor Lockhart','Professor Lupin','Professor Trelawney',2);
+
+insert into questionbank1 values(94,'Who is the Defense Against the Dark Arts teacher in year three?',3,'image','audio','Professor Firenze','Professor Lockhart','Professor Lupin','Madam Pomfrey',3);
+
+insert into questionbank1 values(95,'Who is the Defense Against the Dark Arts teacher in year four?',3,'image','audio','Professor McGonagall','Madam Pomfrey','Professor Snape','Professor Mad-Eye Moody',4);
+
+insert into questionbank1 values(96,'Who is the Defense Against the Dark Arts teacher in year five?',3,'image','audio','Professor Binns','Professor Umbridge','Professor Lupin','Professor Mad-Eye Moody',2);
+
+insert into questionbank1 values(97,'Who is the Defense Against the Dark Arts teacher in year six?',3,'image','audio','Professor Snape','Professor Umbridge','Professor Lupin','Professor Mad-Eye Moody',1);
+
+insert into questionbank1 values(98,'Who is the new Potions Master?',3,'image','audio','Professor Firenze','Professor Slughorn','Professor Quirell','Professor Dumbledore',2);
+
+insert into questionbank1 values(99,'In Harry Potter and the Order of the Phoenix, who dies, who kills then, and where does it happen?',3,'image','audio','Dumbledore, Voldemort, The Ministry of Magic Atrium','Ron, The Brains Tentacles, the Brain Room','Neville, Avery, A Tap-Dancing Jinx','Sirius, Bellatrix, The Hall of Prophecy',4);
+
+insert into questionbank1 values(100,'How did Harry get chosen to participate in the Triwizard Tournament?',3,'image','audio','Dumbledore chose him','Gryffindors voted for him','Barty Crouch impersonating Moody put his name in','Harry wasnt chosen at all',3);
+
+insert into user values(1,'user1','Fname1','Lname1','pic1','user1@gmail.com','password1');
+insert into user values(2,'user2','Fname2','Lname2','pic2','user2@gmail.com','password2');
+insert into user values(3,'user3','Fname3','Lname3','pic3','user3@gmail.com','password3');
+insert into user values(4,'user4','Fname4','Lname4','pic4','user4@gmail.com','password4');
+insert into user values(5,'user5','Fname5','Lname5','pic5','user5@gmail.com','password5');
+insert into user values(6,'user6','Fname6','Lname6','pic6','user6@gmail.com','password6');
+insert into user values(7,'user7','Fname7','Lname7','pic7','user7@gmail.com','password7');
+insert into user values(8,'user8','Fname8','Lname8','pic8','user8@gmail.com','password8');
+insert into user values(9,'user9','Fname9','Lname9','pic9','user9@gmail.com','password9');
+insert into user values(10,'user10','Fname10','Lname10','pic10','user10@gmail.com','password10');
+insert into user values(11,'user11','Fname11','Lname11','pic11','user11@gmail.com','password11');
+insert into user values(12,'user12','Fname12','Lname12','pic12','user12@gmail.com','password12');
+insert into user values(13,'user13','Fname13','Lname13','pic13','user13@gmail.com','password13');
+insert into user values(14,'user14','Fname14','Lname14','pic14','user14@gmail.com','password14');
+insert into user values(15,'user15','Fname15','Lname15','pic15','user15@gmail.com','password15');
+insert into user values(16,'user16','Fname16','Lname16','pic16','user16@gmail.com','password16');
+insert into user values(17,'user17','Fname17','Lname17','pic17','user17@gmail.com','password17');
+insert into user values(18,'user18','Fname18','Lname18','pic18','user18@gmail.com','password18');
+insert into user values(19,'user19','Fname19','Lname19','pic19','user19@gmail.com','password19');
+insert into user values(20,'user20','Fname20','Lname20','pic20','user20@gmail.com','password20');
+
+insert into scorecard values(1,'timestamp','sports',1,4);
+insert into scorecard values(2,'timestamp','sports',2,1);
+insert into scorecard values(3,'timestamp','sports',3,6);
+insert into scorecard values(4,'timestamp','sports',4,3);
+insert into scorecard values(5,'timestamp','sports',5,2);
+insert into scorecard values(6,'timestamp','sports',6,5);
+insert into scorecard values(7,'timestamp','Harry Potter',7,1);
+insert into scorecard values(8,'timestamp','Harry Potter',8,2);
+insert into scorecard values(9,'timestamp','Harry Potter',9,3);
+insert into scorecard values(10,'timestamp','Harry Potter',10,6);
+insert into scorecard values(11,'timestamp','Harry Potter',11,4);
+insert into scorecard values(12,'timestamp','Harry Potter',12,5);
+insert into scorecard values(13,'timestamp','bollywood',13,3);
+insert into scorecard values(14,'timestamp','bollywood',14,1);
+insert into scorecard values(15,'timestamp','bollywood',15,5);
+insert into scorecard values(16,'timestamp','Harry Potter',1,4);
+insert into scorecard values(17,'timestamp','Harry Potter',2,3);
+insert into scorecard values(18,'timestamp','GK',3,2);
+insert into scorecard values(19,'timestamp','GK',4,1);
+insert into scorecard values(20,'timestamp','bollywood',5,6);
+insert into scorecard values(21,'timestamp','bollywood',6,5);
+insert into scorecard values(22,'timestamp','GK',7,2);
+insert into scorecard values(23,'timestamp','Harry Potter',5,3);
+insert into scorecard values(24,'timestamp','GK',6,4);
+insert into scorecard values(25,'timestamp','Science',7,5);
+insert into scorecard values(26,'timestamp','GK',8,6);
+insert into scorecard values(27,'timestamp','Harry Potter',10,1);
+insert into scorecard values(28,'timestamp','Harry Potter',11,2);
+insert into scorecard values(29,'timestamp','Science',13,4);
+insert into scorecard values(30,'timestamp','bollywood',15,3);
+insert into scorecard values(31,'timestamp','bollywood',2,4);
+insert into scorecard values(32,'timestamp','Science',5,3);
+insert into scorecard values(33,'timestamp','Science',6,5);
+insert into scorecard values(34,'timestamp','Harry Potter',1,6);
+insert into scorecard values(35,'timestamp','Science',2,6);
+insert into scorecard values(36,'timestamp','Science',9,6);
+insert into scorecard values(37,'timestamp','GK',10,1);
+insert into scorecard values(38,'timestamp','Science',16,2);
+insert into scorecard values(39,'timestamp','GK',17,4);
+insert into scorecard values(40,'timestamp','Science',18,3);

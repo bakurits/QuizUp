@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="com.entity.Challenge" table="challenge">
+		<id name="challenge_id" column="challenge_id" type="int">
+			<generator class="assigned" />
+		</id>
+		<property name="challenger_id" column="challenger_id" not-null="true" type="int" />
+		<property name="challengee_id" column="challengee_id" not-null="true" type="int" />
+		<property name="score1" column="score1" not-null="true" type="int" />
+		<property name="score2" column="score2" not-null="true" type="int" />
+		<property name="winner_id" column="winner_id" not-null="true" type="int" />
+		<property name="completion" column="completion" not-null="true" type="int" />
+		<property name="questions_id" column="questions_id" not-null="true"/>
+		
+	</class>
+
+</hibernate-mapping>

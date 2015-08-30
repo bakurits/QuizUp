@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  
+   <class name="com.entity.QuestionBank" 
+   		dynamic-insert="true" dynamic-update="true" table="questionbank1">
+   		<id name="ques_id" column="ques_id" type="int">
+			<generator class="assigned" />
+		</id>
+	
+       <property name="question"  
+        		not-null="true" />
+        		
+       <property name="category_id" not-null="true" />
+    	<property name="ques_image"  length="50" 
+        		 />
+        		<property name="ques_audio"  length="50" 
+        		 />
+        		<property name="option1"  length="50" 
+        		not-null="true" />
+        		<property name="option2"  length="50" 
+        		not-null="true" />
+        		<property name="option3"  length="50" 
+        		not-null="true" />
+        		<property name="option4"  length="50" 
+        		not-null="true" />
+        		<property name="right_answer"  length="50" 
+        		not-null="true" />
+   </class>
+</hibernate-mapping>
+
+
+
+
+
+
+
+
+
